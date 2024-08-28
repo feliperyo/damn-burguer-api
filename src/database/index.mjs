@@ -1,9 +1,9 @@
 import { Sequelize } from 'sequelize'
 import mongoose from 'mongoose'
 
-import configDataBase from '../config/database.mjs'
+import configDataBase from '../config/database.js'
 
-import User from '../app/models/User.mjs'
+import User from '../app/models/User.js'
 import Product from '../app/models/Product'
 import Category from '../app/models/Category'
 

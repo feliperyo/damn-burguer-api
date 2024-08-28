@@ -3,7 +3,7 @@ import routes from './routes.mjs'
 import { resolve } from 'node:path'
 import cors from 'cors'
 
-import './config/database.mjs'
+import './config/database.js'
 
 class App {
     constructor() {
