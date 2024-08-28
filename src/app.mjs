@@ -1,9 +1,9 @@
 import express from 'express'
-import routes from './routes.js'
+import routes from './routes.mjs'
 import { resolve } from 'node:path'
 import cors from 'cors'
 
-import './config/database.js'
+import './config/database.mjs'
 
 class App {
     constructor() {
