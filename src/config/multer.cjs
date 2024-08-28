@@ -1,4 +1,4 @@
-import multer from 'multer'
+const multer = require('multer')
 import { v4 } from 'uuid'
 
 import { extname, resolve } from 'node:path'

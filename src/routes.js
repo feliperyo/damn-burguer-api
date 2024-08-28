@@ -1,5 +1,5 @@
 import { Router } from 'express'
-import multer from 'multer'
+const multer = require('multer')
 import multerConfig from './config/multer.cjs'
 import authMiddleware from './app/middlewares/auth.js'
 
